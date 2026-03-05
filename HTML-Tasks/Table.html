@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+	* {
+        margin: 0;
+        padding: 0;
+		font-family: sans-serif;
+	}
+    h1 {
+        padding: 20px 0;
+    }
+	p {
+		padding: 20px 400px;
+		text-align: center;
+		font-size: 14px;
+	}
+
+	.big-container {
+		height: 100vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+    }
+
+		.container {
+            height: 100vh;
+			display: flex;
+			justify-content: center;
+		}
+
+        .links {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin: 0 35%;
+			padding: 10px 20px;
+            background-color: grey;
+        }
+        .links a {
+            font-size: 16px;
+        }
+
+		table,
+		th {
+
+			border: 1px solid black;
+		}
+
+		 th {
+            font-size: 16px;
+			padding: 20px;
+			background-color: yellow;
+
+		}
+
+
+		td {
+            font-size: 14px;
+			text-align: center;
+			border: 1px solid black;
+			padding: 10px;
+		}
+
+        .green {
+            background-color: rgb(64, 226, 64);
+        }
+        .blue {
+            background-color: rgb(75, 120, 219);
+        }
+</style>
+<body>
+    
+   
+
+	<div class="big-container">
+
+		<h1> Welcome to Website <h1>
+				<p>Lorem Ipsum is a standard placeholder text used in the printing and typesetting industry since the
+					1500s.</p>
+
+                <div class="links">
+                    <a href="#">Home</a>
+                    <a href="#">Table Section</a>
+                    <a href="#">About</a>
+                </div>
+
+                <h1> Home Section </h1>
+
+                <p>Lorem Ipsum is a standard placeholder text used in the printing and typesetting industry since the
+					1500s.</p>
+
+                     <h1> Product Table </h1>
+
+                      <p>Lorem Ipsum is a standard placeholder text used in the printing and typesetting industry since the
+					1500s.</p>
+
+				<div class="container">
+					<table>
+						<tr>
+							<th>Product Name</th>
+							<th> Quantity Available </th>
+							<th> Price (PKR) </th>
+							<th> Category </th>
+						</tr>
+						<tr>
+							<td>Apple</td>
+							<td class="green">50</td>
+							<td>150</td>
+							<td>Fruit</td>
+						</tr>
+						<tr>
+							<td>Banana</td>
+							<td class="green"> 100</td>
+							<td>80</td>
+							<td>Fruit</td>
+						</tr>
+						<tr>
+							<td>Laptop</td>
+							<td class="blue">20</td>
+							<td>1500000</td>
+							<td>Electronics</td>
+						</tr>
+						<tr>
+							<td>Book</td>
+							<td class="blue">300</td>
+							<td>500</td>
+							<td>Stationery</td>
+						</tr>
+
+					</table>
+				</div>
+	</div>
+</body>
+</html>
